@@ -13,7 +13,7 @@ user_permission = Permission(RoleNeed('user'))
 edit_permission = Permission(RoleNeed('edit'))
 
 # Gives the user the role of admin, user or edit (modify as needed)
-current_user = {"role": "admin"}
+current_user = {"role": "user"}
 
 # Identity configuration based on user role
 @app.before_request
