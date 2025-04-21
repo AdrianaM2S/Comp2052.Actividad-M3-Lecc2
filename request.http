@@ -1,0 +1,18 @@
+
+# The main route
+GET http://127.0.0.1:5000/
+
+###
+
+# Access to the administration panel
+GET http://127.0.0.1:5000/admin
+
+###
+
+# Access to the user panel
+GET http://127.0.0.1:5000/user
+
+###
+
+# Access to the editor panel
+GET http://127.0.0.1:5000/edit
